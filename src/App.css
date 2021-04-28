@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,31 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 500px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  width: 80%;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: aqua;
+  color: white;
+
 }
